@@ -1,6 +1,8 @@
-for (i = 1; i<=20; i++) {
-    console.log();
+for (i=1; i<30; i++) {
+    console.log(i);
 }
 
 
-///add comment
+/*for (i = 1; i<=20; i++) {
+    console.log();
+}*/
