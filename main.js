@@ -1,14 +1,19 @@
-var i=0;
+/*var i=0;
 
-/*do{
+do{
     console.log(i);
     i++;
 }while (i<=11);
 */
+
+/*var i=0;
+
 while(i<11){
 console.log(i);
 i++;
 }
+*/
+
 /*for (var i=1; i<=30; i++) {
     console.log(i);
 }
