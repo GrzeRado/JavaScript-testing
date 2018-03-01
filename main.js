@@ -1,3 +1,10 @@
+function seazon(winter) {
+    console.log("now is " + winter);
+}
+
+seazon("-15");
+seazon("snow");
+
 /*var i=0;
 
 do{
