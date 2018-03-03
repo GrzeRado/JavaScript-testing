@@ -1,8 +1,20 @@
-function random() {
+var season = ["spring", "summer", "autumn", "winter"];
+
+function displaySeason(){
+    for(var i=0; i<season.length; i++){
+    console.log("Now is " + [i]);
+}
+}
+
+displaySeason();
+
+
+/*function random() {
     console.log(Math.random());
 }
 
 random();
+*/
 
 /*function seazon(winter) {
     console.log("now is " + winter);
