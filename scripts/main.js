@@ -1,6 +1,6 @@
-var cofeeFlavor = "espresso";
-var cofeeTemperature = "piping hot";
-var cofeeMilk = true;
+var coffeeFlavor = "espresso";
+var coffeeTemperature = "piping hot";
+var coffeeMilk = true;
 
 
 /*var season = ["spring", "summer", "autumn", "winter"];
