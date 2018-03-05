@@ -2,6 +2,13 @@ var coffeeFlavor = "espresso";
 var coffeeTemperature = "piping hot";
 var coffeeMilk = true;
 
+var myCoffee = {
+    flavor: "espresso",
+    temperature: "piping hot",
+    milk: true
+};
+
+
 
 /*var season = ["spring", "summer", "autumn", "winter"];
 
