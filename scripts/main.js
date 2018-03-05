@@ -1,4 +1,9 @@
-var season = ["spring", "summer", "autumn", "winter"];
+var cofeeFlavor = "espresso";
+var cofeeTemperature = "piping hot";
+var cofeeMilk = true;
+
+
+/*var season = ["spring", "summer", "autumn", "winter"];
 
 function displaySeason(){
     for(var i=0; i<season.length; i++){
@@ -7,7 +12,7 @@ function displaySeason(){
 }
 
 displaySeason();
-
+*/
 
 /*function random() {
     console.log(Math.random());
