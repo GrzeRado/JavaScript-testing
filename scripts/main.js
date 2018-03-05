@@ -8,7 +8,7 @@ var myCoffee = {
     milk: true
 };
 
-
+alert(myCoffee.temperature);
 
 /*var season = ["spring", "summer", "autumn", "winter"];
 
