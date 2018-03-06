@@ -1,4 +1,24 @@
-var myCoffee = {
+var tom = {
+  name: "Tom",
+  job: "explorer"
+};
+
+var elsa = {
+    name: "Elsa",
+    job: "writer"
+};
+
+function People(name, job){
+    this.name = name;
+    this.job = job;
+}
+
+var john = new People("John", "driver");
+var elsa = new People("Elsa", "writer")
+alert(john.name);
+alert(elsa.name);
+
+/* var myCoffee = {
     flavor: "espresso",
     temperature: "piping hot",
     milk: true,
@@ -13,6 +33,7 @@ var myCoffee = {
 
     myCoffee.temperature = "cold";
     myCoffee.whatThatIs();
+*/
 
 /*var coffeeFlavor = "espresso";
 var coffeeTemperature = "piping hot";
