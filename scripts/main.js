@@ -1,4 +1,20 @@
-var coffeeFlavor = "espresso";
+var myCoffee = {
+    flavor: "espresso",
+    temperature: "piping hot",
+    milk: true,
+
+    whatThatIs: function() {
+        if (myCoffee.temperature === "cold") {
+            myCoffee.temperature = "piping.hot";
+            alert("your coffee is no good");
+        }
+    }
+    };
+
+    myCoffee.temperature = "cold";
+    myCoffee.whatThatIs();
+
+/*var coffeeFlavor = "espresso";
 var coffeeTemperature = "piping hot";
 var coffeeMilk = true;
 
@@ -9,6 +25,7 @@ var myCoffee = {
 };
 
 alert(myCoffee.temperature);
+*/
 
 /*var season = ["spring", "summer", "autumn", "winter"];
 
