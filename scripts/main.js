@@ -1,4 +1,13 @@
-var tom = {
+var name = "Ola";
+
+function Children (name){
+    window.alert("small people");
+}
+
+window.Children();
+console.log(name);
+
+/* var tom = {
   name: "Tom",
   job: "explorer"
 };
@@ -17,6 +26,7 @@ var john = new People("John", "driver");
 var elsa = new People("Elsa", "writer")
 alert(john.name);
 alert(elsa.name);
+*/
 
 /* var myCoffee = {
     flavor: "espresso",
