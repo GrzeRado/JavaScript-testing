@@ -1,7 +1,9 @@
 var name = "Ola";
+var newName = " ma kota";
 
 function Children (name){
     window.alert("small people");
+    alert(newName);
 }
 
 window.Children();
